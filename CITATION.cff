@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this standard, cite it as below."
+title: "The AI-Ready Brand Standard"
+version: "1.0"
+authors:
+  - name: "Niftic"
+    website: "https://www.niftic.com"
+license: CC-BY-4.0
+url: "https://www.niftic.com/ai-ready-brand-standard"
+repository-code: "https://github.com/Niftic-Agency/ai-ready-brand-standard"
