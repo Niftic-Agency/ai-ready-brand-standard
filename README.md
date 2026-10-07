@@ -2,7 +2,7 @@
 
 A definition of what it means for a brand to be ready for AI, and a method for measuring it.
 
-Published by [Niftic](https://www.niftic.com). Version 1.0, September 2026. Licensed CC BY 4.0.
+Published by [Niftic](https://www.niftic.com). Version 1.1, October 2026. Licensed CC BY 4.0.
 
 **[Read the standard](STANDARD.md)** · [Web version](https://www.niftic.com/ai-ready-brand-standard) · [Why we wrote it](https://www.niftic.com/insights/the-ai-ready-brand-standard)
 
@@ -47,7 +47,7 @@ You do not need any particular software to apply it, and the standard deliberate
 
 Copyright (c) 2026 Niftic. Licensed CC BY 4.0, full text in [LICENSE](LICENSE). You may copy, translate, adapt, embed it in internal documentation, and build tools against it, commercially or otherwise, as long as you credit Niftic and note any changes.
 
-Cite as: Niftic, *The AI-Ready Brand Standard*, v1.0, 2026. https://www.niftic.com/ai-ready-brand-standard
+Cite as: Niftic, *The AI-Ready Brand Standard*, v1.1, 2026. https://www.niftic.com/ai-ready-brand-standard
 
 If you fork it and change the levels, the dimensions, or the weights, please say so plainly in your version so the two do not get confused. Disagreement is welcome; silent divergence is not useful to anyone.
 

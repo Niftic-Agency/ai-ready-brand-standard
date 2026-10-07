@@ -4,6 +4,13 @@ All notable changes to The AI-Ready Brand Standard are recorded here.
 
 The version stamp in `STANDARD.md` and on the web version always match. Revisions land in this repository first.
 
+## v1.1, October 2026
+
+- Tiers carry counts. Stated, Specified and Governed are defined by how many of the twelve dimensions reach a level.
+- The voice, color and layout rows of the twelve dimensions table state what to check rather than how much.
+- Scope note: how rules reach a tool is outside the standard. It scores what arrives.
+- Fourth authoring note: package rules by dimension. A token file is Level 2 until the rules for using it travel with it.
+
 ## v1.0, September 2026
 
 First public release.

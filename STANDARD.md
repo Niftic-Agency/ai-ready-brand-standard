@@ -1,6 +1,6 @@
 # The AI-Ready Brand Standard
 
-**Version 1.0 · September 2026 · Published by [Niftic](https://www.niftic.com)**
+**Version 1.1 · October 2026 · Published by [Niftic](https://www.niftic.com)**
 
 A definition of what it means for a brand to be ready for AI, and a method for measuring it.
 
@@ -22,7 +22,7 @@ A mediocre brand, reproduced perfectly, is still mediocre. Distinctiveness is no
 
 It will not tell you the accent should be orange, or which audience the brand should serve. Those are brand decisions. They take taste and a reason you can defend. The standard protects those choices after you have made them.
 
-It also does not mandate a format. The standard judges the enforceability of whatever shape a brand chose. There is no required document structure, no required tool, and no preferred file type. Strict about whether a rule can be executed, agnostic about how the brand got there.
+It also does not mandate a format. The standard judges the enforceability of whatever shape a brand chose. There is no required document structure, no required tool, and no preferred file type. Strict about whether a rule can be executed, agnostic about how the brand got there. How the rules reach a tool, the file format, the chunking, the retrieval, is outside the standard. It scores what arrives.
 
 ---
 
@@ -85,7 +85,7 @@ Every dimension sits at one of five levels. The levels are the unit of the stand
 | 0 | No voice section |
 | 1 | "We are confident, human and direct" |
 | 2 | A list of preferred words and a tone adjective per audience |
-| 3 | Do and don't pairs dense enough to write from, a banned-word list with reasons, rules for when to be loud and when to be quiet, and a before and after rewrite |
+| 3 | A do and don't pair for every tone rule, a banned-word list with reasons, rules for when to be loud and when to be quiet, and a before and after rewrite |
 | 4 | Level 3, plus published copy held up as exemplars, each with the reasoning for why it was written that way |
 
 ---
@@ -112,13 +112,13 @@ These twelve dimensions make up the core of brand guidelines. For each dimension
 |---|---|---|---|
 | 1 | **Identity and strategy** | Belief, promise, and audiences included | Promise and belief written in language someone can use. Audiences ranked. Positioning clear enough to rule something out: an enemy, a "we are not." |
 | 2 | **Brand signals** | Attributes listed | Each attribute tied to a visible choice. "Rigorous" becomes "structured, grid-based layout." The feeling language stays, because people read the system too, but no attribute is left without a visible choice. |
-| 3 | **Voice and tone** | Tone described | Do and don't pairs dense enough to write from, banned words, a before-and-after rewrite, and rules for when the voice gets louder or quieter. Philosophy is welcome, but it never carries a rule on its own. |
+| 3 | **Voice and tone** | Tone described | A do and don't pair for every tone rule, showing one sentence that breaks it and one that follows it. Banned words, a before-and-after rewrite, and rules for when the voice gets louder or quieter. Philosophy is welcome, but it never carries a rule on its own. |
 | 4 | **Editorial style** | Style notes included | Casing, dashes, numbers, punctuation, links, and attribution decided. The tool should not make a new choice every time. |
 | 5 | **Logo** | Files uploaded | Rules for which variant to use and when, where it sits, clear space and minimum size as numbers, what backgrounds it can sit on, and what never to do with it. |
-| 6 | **Color** | Palette with hex values | A role for each color, distribution percentages, allowed pairings, contrast floors, and clear limits. |
+| 6 | **Color** | Palette with hex values | A role for each color, distribution percentages, allowed pairings, contrast floors, and what each color never does. |
 | 7 | **Typography** | Font families named | Weights matched to the licensed files. A role for each tier. A size scale from display to body, absolute for digital and as ratios, so the hierarchy holds in any medium. Casing and tracking decided. |
 | 8 | **Photography and imagery** | Examples uploaded | Treatment written as checkable rules: processing, subjects, what never appears. The examples are described as well as shown. |
-| 9 | **Layout and composition** | Grid mentioned | Anchor rules, spacing logic, column limits, and a clear position on whitespace, with numbers where they matter. |
+| 9 | **Layout and composition** | Grid mentioned | Anchor rules, spacing steps and column limits as numbers, and a stated minimum for whitespace. |
 | 10 | **Brand in context** | Example images included | Notes on real work written as rules, not labels. "Content starts top left. The logo aligns with the first text baseline," not "logo." At least one medium shown from start to finish. |
 | 11 | **Actions and interactive** | Buttons shown | Exact treatment for each medium, with rules for what can change and what cannot. |
 | 12 | **Anti-patterns** | Scattered don'ts | Each don't sits beside the rule it protects, inside its own brand dimension. It earns its place by naming a failure the rule alone does not rule out. Graded on the don'ts at the source, not on a separate list. A system with no don'ts anywhere leaves AI free to improvise. |
@@ -169,9 +169,9 @@ The overall score shows how the system is doing as a whole. The individual dimen
 
 | Tier | Requirement |
 |---|---|
-| **Stated** | The brand is described, but the instructions stop at Level 1. A brand book written for people. The PDF without the design intent |
-| **Specified** | The values exist, but the rules for using them are mostly missing. Most of the system stops at Level 2 |
-| **Governed** | Most core dimensions at Level 3, none below Level 2 |
+| **Stated** | Fewer than six of the twelve dimensions at Level 2 or above. The brand is described, but the instructions stop at Level 1. A brand book written for people. The PDF without the design intent |
+| **Specified** | At least six of the twelve dimensions at Level 2 or above, and fewer than nine at Level 3. The values exist, but most of the rules for using them are missing |
+| **Governed** | At least nine of the twelve dimensions at Level 3 or above, none below Level 2 |
 | **AI-ready** | Every core dimension at Level 3 or above, and at least two of the four Practiced dimensions at Level 4 |
 
 ### Scoring notes
@@ -184,11 +184,13 @@ The overall score shows how the system is doing as a whole. The individual dimen
 
 ## 7. Authoring notes
 
-Three findings from applying the standard to real brand systems. None of them are requirements; all of them save time.
+Four findings from applying the standard to real brand systems. None of them are requirements; all of them save time.
 
 **Rules must include specific context.** A rule rarely arrives with the paragraph that introduced it. A tool retrieves it, or someone skims straight to it, and it lands on its own. "Use it sparingly" means nothing by itself. "Use the accent sparingly" leaves no room to guess. Write every rule as though it will be read with nothing around it.
 
 **Make it findable.** A number inside a diagram depends on the tool being able to read images. A number inside a paragraph is found sometimes and missed sometimes, depending on the tool and the length of the document. Give each number its own label and cell. Retrieval becomes more reliable, and a person can check it faster too.
+
+**Package rules by dimension.** A tool rarely receives the whole document. It receives a section. Each dimension stands alone, with its values, its rules and its don'ts in one place, so a retrieved section carries everything needed to follow it. A token file in a machine-readable format is Level 2 material. It carries values. It becomes Level 3 only when the rules for using those values travel with it.
 
 **The fastest route from Specified to Governed is transcription, not invention.** Put the people most fluent in the brand in a room with work that is slightly off, and write down every sentence beginning "we would never." Then run each one through the two tests. "We would never make it feel corporate" fails both. "We would never set body copy below 16px" passes both. Most of a brand's governance already exists, unwritten, in the people who have been applying it.
 
@@ -196,13 +198,15 @@ Three findings from applying the standard to real brand systems. None of them ar
 
 ## Version and citation
 
-**Version 1.0, September 2026.**
+**Version 1.1, October 2026.**
 
-Cite as: Niftic, *The AI-Ready Brand Standard*, v1.0, 2026. https://www.niftic.com/ai-ready-brand-standard
+Cite as: Niftic, *The AI-Ready Brand Standard*, v1.1, 2026. https://www.niftic.com/ai-ready-brand-standard
 
 The canonical copy is the `STANDARD.md` file in the public repository. The web page is synced from it and carries the same version stamp.
 
 ## Changelog
+
+**v1.1 (October 2026).** Tiers defined by counts. Voice, color and layout rows state what to check. Delivery scope stated. Fourth authoring note on packaging by dimension.
 
 **v1.0 (September 2026).** First public release. Five Brand Readiness Levels, two tests, twelve dimensions, weighted scoring with a floor rule.
 
