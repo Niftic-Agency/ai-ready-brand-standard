@@ -85,7 +85,7 @@ Every dimension sits at one of five levels. The levels are the unit of the stand
 | 0 | No voice section |
 | 1 | "We are confident, human and direct" |
 | 2 | A list of preferred words and a tone adjective per audience |
-| 3 | A do and don't pair for every tone rule, a banned-word list with reasons, rules for when to be loud and when to be quiet, and a before and after rewrite |
+| 3 | Tone rules that each pass both tests, a banned-word list with reasons, rules for when to be loud and when to be quiet, and a before and after rewrite |
 | 4 | Level 3, plus published copy held up as exemplars, each with the reasoning for why it was written that way |
 
 ---
@@ -112,7 +112,7 @@ These twelve dimensions make up the core of brand guidelines. For each dimension
 |---|---|---|---|
 | 1 | **Identity and strategy** | Belief, promise, and audiences included | Promise and belief written in language someone can use. Audiences ranked. Positioning clear enough to rule something out: an enemy, a "we are not." |
 | 2 | **Brand signals** | Attributes listed | Each attribute tied to a visible choice. "Rigorous" becomes "structured, grid-based layout." The feeling language stays, because people read the system too, but no attribute is left without a visible choice. |
-| 3 | **Voice and tone** | Tone described | A do and don't pair for every tone rule, showing one sentence that breaks it and one that follows it. Banned words, a before-and-after rewrite, and rules for when the voice gets louder or quieter. Philosophy is welcome, but it never carries a rule on its own. |
+| 3 | **Voice and tone** | Tone described | Tone rules that each pass both tests, with a don't beside a rule only where it names a failure the rule alone does not rule out. Banned words, a before-and-after rewrite, and rules for when the voice gets louder or quieter. Philosophy is welcome, but it never carries a rule on its own. |
 | 4 | **Editorial style** | Style notes included | Casing, dashes, numbers, punctuation, links, and attribution decided. The tool should not make a new choice every time. |
 | 5 | **Logo** | Files uploaded | Rules for which variant to use and when, where it sits, clear space and minimum size as numbers, what backgrounds it can sit on, and what never to do with it. |
 | 6 | **Color** | Palette with hex values | A role for each color, distribution percentages, allowed pairings, contrast floors, and what each color never does. |
