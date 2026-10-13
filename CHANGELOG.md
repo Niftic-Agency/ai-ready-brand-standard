@@ -4,6 +4,13 @@ All notable changes to The AI-Ready Brand Standard are recorded here.
 
 The version stamp in `STANDARD.md` and on the web version always match. Revisions land in this repository first.
 
+## v1.2, October 2026
+
+- The guessing test applies to a whole dimension as well as to each rule. A Governed dimension gives a default or a stop for the cases its rules do not cover; the Level 3 definition and the two worked examples show it.
+- Identity and strategy: a rule for which wins when two rules conflict, beside the ranked audiences.
+- Scope note: who approves, and how fast, is company policy.
+- Fifth authoring note: write down where the rules run out. One line per dimension, and the form a stop takes (what could not be resolved, a proposed choice, one line of reasoning).
+
 ## v1.1, October 2026
 
 - Tiers carry counts. Stated, Specified and Governed are defined by how many of the twelve dimensions reach a level.

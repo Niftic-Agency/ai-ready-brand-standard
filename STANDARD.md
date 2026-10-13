@@ -1,6 +1,6 @@
 # The AI-Ready Brand Standard
 
-**Version 1.1 · October 2026 · Published by [Niftic](https://www.niftic.com)**
+**Version 1.2 · October 2026 · Published by [Niftic](https://www.niftic.com)**
 
 A definition of what it means for a brand to be ready for AI, and a method for measuring it.
 
@@ -24,6 +24,8 @@ It will not tell you the accent should be orange, or which audience the brand sh
 
 It also does not mandate a format. The standard judges the enforceability of whatever shape a brand chose. There is no required document structure, no required tool, and no preferred file type. Strict about whether a rule can be executed, agnostic about how the brand got there. How the rules reach a tool, the file format, the chunking, the retrieval, is outside the standard. It scores what arrives.
 
+It does not decide who approves. A brand system has to include an answer for the cases its rules do not cover (section 2). Who makes that call, and how fast, is each company's own policy.
+
 ---
 
 ## 2. The two tests
@@ -39,6 +41,8 @@ Every rule is graded against both. They apply to any rule in any dimension.
 | "Our palette is warm and energetic." | "The accent covers about 10% of any layout and never sits behind text." |
 | "Photography should feel human." | "Subjects are photographed mid-action, never posed to camera." |
 | "Keep the logo clear of other elements." | "Clear space equals the height of the wordmark's cap height on all four sides." |
+
+The test applies to a whole dimension as well as to each rule in it. Rules cover the cases they were written for. Sooner or later a piece of work falls outside all of them: a medium with no layout rule, a ground with no logo rule. For that case the dimension needs an answer of its own. Either a default that covers everything the rules do not ("the voice stays the same in every format"), or an instruction to stop and ask. Without one, the tool guesses, and nobody can prove the guess wrong, because there is no rule to hold the work against.
 
 ### The violation test
 
@@ -63,7 +67,7 @@ Every dimension sits at one of five levels. The levels are the unit of the stand
 | **0** | Absent | Nothing on this dimension |
 | **1** | Stated | Description and adjectives that a human interprets |
 | **2** | Specified | Exact values, no instruction about use |
-| **3** | Governed | Behavior written down: proportions, contexts, never-rules, do and don't pairs |
+| **3** | Governed | Behavior written down: proportions, contexts, never-rules, do and don't pairs, and a default or a stop for the cases the rules do not cover |
 | **4** | Practiced | Governed, plus real approved work with the decisions marked on it |
 
 **Level 3 is the AI-ready floor.** Below it, a tool is guessing. At Level 3, AI can act, and you can prove when it got the rule wrong. **Level 4 requires proof:** work that already shipped, approved by the people who own the brand. A brand system can be written up to Level 3. Level 4 needs evidence, and it applies selectively (see section 4).
@@ -75,7 +79,7 @@ Every dimension sits at one of five levels. The levels are the unit of the stand
 | 0 | No color section |
 | 1 | "The color palette is warm and confident, with a bold accent" |
 | 2 | Blue #1B3A5C, Signal Orange #E8622A, Paper #F8F7F4. Values and names only |
-| 3 | Signal Orange is for interactive elements. It covers roughly 10% of any layout. It never sits behind text or fills an entire background. On Paper, it clears 4.5:1 |
+| 3 | Signal Orange is for interactive elements. It covers roughly 10% of any layout. It never sits behind text or fills an entire background. On Paper, it clears 4.5:1. Any use these rules do not cover: ask first |
 | 4 | Level 3, plus an approved layout with the rules marked on it, showing the 10% in use and why the accent sits where it does |
 
 ### Worked example: voice
@@ -85,7 +89,7 @@ Every dimension sits at one of five levels. The levels are the unit of the stand
 | 0 | No voice section |
 | 1 | "We are confident, human and direct" |
 | 2 | A list of preferred words and a tone adjective per audience |
-| 3 | Tone rules that each pass both tests, a banned-word list with reasons, rules for when to be loud and when to be quiet, and a before and after rewrite |
+| 3 | Tone rules that each pass both tests, a banned-word list with reasons, rules for when to be loud and when to be quiet, a before and after rewrite, and one line for every format not listed: the voice stays the same |
 | 4 | Level 3, plus published copy held up as exemplars, each with the reasoning for why it was written that way |
 
 ---
@@ -106,22 +110,22 @@ Level 4 is selective by design. Specific examples matter most on the surfaces AI
 
 ## 5. The twelve brand dimensions
 
-These twelve dimensions make up the core of brand guidelines. For each dimension, "Present" is what a completeness check accepts and "Followable" is what AI needs to use it without guessing.
+These twelve dimensions make up the core of brand guidelines. For each one, "Present" is what a completeness check accepts. "Followable" is the list of things AI needs before it can use the dimension without guessing. Each item is something you can point at in the guidelines, or not.
 
 | # | Dimension | Present | Followable |
 |---|---|---|---|
-| 1 | **Identity and strategy** | Belief, promise, and audiences included | Promise and belief written in language someone can use. Audiences ranked. Positioning clear enough to rule something out: an enemy, a "we are not." |
-| 2 | **Brand signals** | Attributes listed | Each attribute tied to a visible choice. "Rigorous" becomes "structured, grid-based layout." The feeling language stays, because people read the system too, but no attribute is left without a visible choice. |
-| 3 | **Voice and tone** | Tone described | Tone rules that each pass both tests, with a don't beside a rule only where it names a failure the rule alone does not rule out. Banned words, a before-and-after rewrite, and rules for when the voice gets louder or quieter. Philosophy is welcome, but it never carries a rule on its own. |
-| 4 | **Editorial style** | Style notes included | Casing, dashes, numbers, punctuation, links, and attribution decided. The tool should not make a new choice every time. |
-| 5 | **Logo** | Files uploaded | Rules for which variant to use and when, where it sits, clear space and minimum size as numbers, what backgrounds it can sit on, and what never to do with it. |
-| 6 | **Color** | Palette with hex values | A role for each color, distribution percentages, allowed pairings, contrast floors, and what each color never does. |
-| 7 | **Typography** | Font families named | Weights matched to the licensed files. A role for each tier. A size scale from display to body, absolute for digital and as ratios, so the hierarchy holds in any medium. Casing and tracking decided. |
-| 8 | **Photography and imagery** | Examples uploaded | Treatment written as checkable rules: processing, subjects, what never appears. The examples are described as well as shown. |
-| 9 | **Layout and composition** | Grid mentioned | Anchor rules, spacing steps and column limits as numbers, and a stated minimum for whitespace. |
-| 10 | **Brand in context** | Example images included | Notes on real work written as rules, not labels. "Content starts top left. The logo aligns with the first text baseline," not "logo." At least one medium shown from start to finish. |
-| 11 | **Actions and interactive** | Buttons shown | Exact treatment for each medium, with rules for what can change and what cannot. |
-| 12 | **Anti-patterns** | Scattered don'ts | Each don't sits beside the rule it protects, inside its own brand dimension. It earns its place by naming a failure the rule alone does not rule out. Graded on the don'ts at the source, not on a separate list. A system with no don'ts anywhere leaves AI free to improvise. |
+| 1 | **Identity and strategy** | Belief, promise and audiences included | · The promise and the belief, written in language someone can use.<br>· Audiences ranked.<br>· A rule for which wins when two rules conflict.<br>· Positioning clear enough to rule something out: an enemy, a "we are not." |
+| 2 | **Brand signals** | Attributes listed | · Each attribute tied to a visible choice. "Rigorous" becomes "structured, grid-based layout."<br>· No attribute left without one. The feeling language stays, because people read the system too. |
+| 3 | **Voice and tone** | Tone described | · Tone rules that each pass both tests.<br>· A don't beside a rule only where it names a failure the rule alone does not rule out.<br>· Banned words.<br>· A before-and-after rewrite.<br>· Rules for when the voice gets louder or quieter.<br>· Philosophy is welcome, but it never carries a rule on its own. |
+| 4 | **Editorial style** | Style notes included | · Casing, dashes, numbers, punctuation, links and attribution, each decided. The tool should not make a new choice every time. |
+| 5 | **Logo** | Files uploaded | · Which variant to use, and when.<br>· Where it sits.<br>· Clear space and minimum size as numbers.<br>· What backgrounds it can sit on.<br>· What never to do with it. |
+| 6 | **Color** | Palette with hex values | · A role for each color.<br>· Distribution percentages.<br>· Allowed pairings.<br>· Contrast floors.<br>· What each color never does. |
+| 7 | **Typography** | Font families named | · Weights matched to the licensed files.<br>· A role for each tier.<br>· A size scale from display to body: absolute for digital, and as ratios, so the hierarchy holds in any medium.<br>· Casing and tracking decided. |
+| 8 | **Photography and imagery** | Examples uploaded | · Treatment written as checkable rules: processing, subjects, what never appears.<br>· The examples described as well as shown. |
+| 9 | **Layout and composition** | Grid mentioned | · Anchor rules.<br>· Spacing steps and column limits as numbers.<br>· A stated minimum for whitespace. |
+| 10 | **Brand in context** | Example images included | · Notes on real work written as rules, not labels. "Content starts top left. The logo aligns with the first text baseline," not "logo."<br>· At least one medium shown from start to finish. |
+| 11 | **Actions and interactive** | Buttons shown | · Exact treatment for each medium.<br>· What can change and what cannot. |
+| 12 | **Anti-patterns** | Scattered don'ts | · Each don't sits beside the rule it protects, inside its own dimension, and names a failure the rule alone does not rule out.<br>· Graded on the don'ts at the source, not on a separate list. A system with no don'ts anywhere leaves AI free to improvise. |
 
 ---
 
@@ -184,7 +188,7 @@ The overall score shows how the system is doing as a whole. The individual dimen
 
 ## 7. Authoring notes
 
-Four findings from applying the standard to real brand systems. None of them are requirements; all of them save time.
+Five findings from applying the standard to real brand systems. None of them are requirements; all of them save time.
 
 **Rules must include specific context.** A rule rarely arrives with the paragraph that introduced it. A tool retrieves it, or someone skims straight to it, and it lands on its own. "Use it sparingly" means nothing by itself. "Use the accent sparingly" leaves no room to guess. Write every rule as though it will be read with nothing around it.
 
@@ -194,17 +198,21 @@ Four findings from applying the standard to real brand systems. None of them are
 
 **The fastest route from Specified to Governed is transcription, not invention.** Put the people most fluent in the brand in a room with work that is slightly off, and write down every sentence beginning "we would never." Then run each one through the two tests. "We would never make it feel corporate" fails both. "We would never set body copy below 16px" passes both. Most of a brand's governance already exists, unwritten, in the people who have been applying it.
 
+**Write down where the rules run out.** Most bad guesses happen in the gaps: a case no rule covers, or two rules that disagree. A guess made there cannot fail the violation test, because there is no rule to hold it against, and a confident guess that ships gets reused as a template. Close the gap with one line per dimension, not a clause per case; a clause for every edge invites the next one. The line is a default where one exists ("where a medium is not named, hold the ratios") and "ask" where none does. The ranking that settles a conflict between rules belongs in identity, written once, so no section has to repeat it. When a tool does stop, the stop should arrive as a decision, not a question: what could not be resolved, a proposed choice, and one line of reasoning. Write that into the "ask" line itself, with who to ask, so every tool that reads it stops the same way. The reviewer approves or changes the choice, and the approved choice becomes the rule for next time. Stopping is cheap when it arrives this way.
+
 ---
 
 ## Version and citation
 
-**Version 1.1, October 2026.**
+**Version 1.2, October 2026.**
 
-Cite as: Niftic, *The AI-Ready Brand Standard*, v1.1, 2026. https://www.niftic.com/ai-ready-brand-standard
+Cite as: Niftic, *The AI-Ready Brand Standard*, v1.2, 2026. https://www.niftic.com/ai-ready-brand-standard
 
 The canonical copy is the `STANDARD.md` file in the public repository. The web page is synced from it and carries the same version stamp.
 
 ## Changelog
+
+**v1.2 (October 2026).** The guessing test applies to a whole dimension: a Governed dimension gives a default or a stop for the cases its rules do not cover. Identity carries the rule for which wins when two rules conflict. Scope note: who approves is company policy. Fifth authoring note: write down where the rules run out.
 
 **v1.1 (October 2026).** Tiers defined by counts. Voice, color and layout rows state what to check. Delivery scope stated. Fourth authoring note on packaging by dimension.
 
